@@ -1,7 +1,7 @@
 <?php
   error_reporting(E_ERROR | E_PARSE);
   if(sizeof($argv)>1){
-    $oldDomain = 'whr1\.000webhostapp\.com';
+    $oldDomain = 'orbsools\.000webhostapp\.com';
     $oldDBUSER = '1';
     $oldDB     = '1';
     $newDomain = $argv[1];
