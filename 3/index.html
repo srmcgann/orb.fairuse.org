@@ -21,9 +21,10 @@
     <iframe src="https://warpspeed.000webhostapp.com/" id="mainFrame"></iframe>
     <script>
       if(location.href.indexOf('?')!=-1){
-        pathname = location.href.split('?')[1]
+        pathname = location.href.split('?')
+        pathname = pathname.length ? '?' + pathname[1] : ''
         el = document.querySelector('#mainFrame')
-        el.src = 'https://orbs3.000webhostapp.com/?' + pathname
+        el.src = 'https://orbs3.000webhostapp.com/' + pathname
       }
     </script>
     </script>

@@ -13,5 +13,7 @@ mv *.zip ..
 mv *.zip ..
 ./setDomainBatch.sh warpspeed.000webhostapp.com id21607252_user id21607252_warpspeed
 mv *.zip ..
+./setDomainBatch.sh orbstools.000webhostapp.com id21594651_user id21594651_orbstools
+mv *.zip ..
 #./setDomainBatch orbs3.000webhostapp.com id21553412_user id21553412_orbs3
 #mv *.zip ..
