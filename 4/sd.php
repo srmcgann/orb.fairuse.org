@@ -2,8 +2,8 @@
   error_reporting(E_ERROR | E_PARSE);
   if(sizeof($argv)>1){
     $oldDomain = 'whr1\.000webhostapp\.com';
-    $oldDBUSER = 'id21583283_user';
-    $oldDB     = 'id21583283_orbs4';
+    $oldDBUSER = 'id21601862_user';
+    $oldDB     = 'id21601862_efx3';
     $newDomain = $argv[1];
     $newDBUSER = $argv[2];
     $newDB = $argv[3];
