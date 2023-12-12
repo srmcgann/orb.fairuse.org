@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <style>
@@ -21,9 +21,9 @@
     <iframe src="" id="mainFrame"></iframe>
     <script>
       pathname = location.href.split('?')
-      pathname = pathname.length ? '/tictactoe/g/?' + pathname[1] : ''
+      pathname = pathname.length ? '/tictactoe/g/?' + pathname[1] : '/tictactoe/g'
       el = document.querySelector('#mainFrame')
-      el.src = (Math.random()*7|0)+'/tictactoe/g/' + pathname
+      el.src = '../../' + (Math.random()*7|0) + pathname
     </script>
     </script>
   </body>

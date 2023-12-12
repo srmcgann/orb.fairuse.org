@@ -1,4 +1,4 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <style>
@@ -18,12 +18,13 @@
     </style>
   </head>
   <body>
-    <iframe src="https://efx3.000webhostapp.com/efx" id="mainFrame"></iframe>
+    <iframe src="https://efx3.000webhostapp.com/a" id="mainFrame"></iframe>
     <script>
       if(location.href.indexOf('?')!=-1){
-        pathname = location.href.split('?')[1]
+        pathname = location.href.split('?')
+        pathname = pathname.length ? '/efx/?' + pathname[1] : '/efx'
         el = document.querySelector('#mainFrame')
-        el.src = 'https://efx3.000webhostapp.com/efx/?' + pathname
+        el.src = '../' + (Math.random()*7|0) + pathname
       }
     </script>
   </body>
