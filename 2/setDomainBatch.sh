@@ -10,4 +10,4 @@
 #read -r newdb
 
 #php sd.php "$newdomain" "$newdbuser" "$newdb";
-php sd.php "$1" "$2" "$3";
+php sd.php "$1" "$2" "$3" "$4";
