@@ -9,3 +9,6 @@
 ./setDomainBatch.sh orbstools.000webhostapp.com 7
 ./setDomainBatch.sh gummier-fish.000webhostapp.com 8
 ./setDomainBatch.sh whr.rf.gd 9
+./setDomainBatch.sh whr.42web.io 10
+./setDomainBatch.sh whr.000.pe 11
+./setDomainBatch.sh orb.42web.io 12
