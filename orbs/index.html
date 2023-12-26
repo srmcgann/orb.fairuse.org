@@ -21,9 +21,9 @@
     <iframe src="" id="mainFrame"></iframe>
     <script>
       pathname = location.href.split('?')
-      pathname = typeof pathname != 'undefined' && pathname.length ? '/orbs/?' + pathname[1] : '/orbs'
+      pathname = typeof pathname[1] != 'undefined' && pathname.length ? '/orbs/?' + pathname[1] : '/orbs'
       el = document.querySelector('#mainFrame')
-      location.href = '../' + (Math.random()*13|0) + pathname
+      location.href = '../' + (Math.random()*9|0) + pathname
     </script>
     </script>
   </body>
