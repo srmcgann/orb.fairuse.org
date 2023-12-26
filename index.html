@@ -22,7 +22,7 @@
     <iframe src="" id="mainFrame"></iframe>
     <script>
       pathname = location.href.split('?')
-      pathname = pathname.length ? '/?' + pathname[1] : ''
+      pathname = typeof pathname != 'undefined' && pathname.length ? '/?' + pathname[1] : ''
       el = document.querySelector('#mainFrame')
       location.href = (Math.random()*13|0)+'/' + pathname
     </script>

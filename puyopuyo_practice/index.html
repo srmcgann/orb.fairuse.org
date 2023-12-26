@@ -21,7 +21,7 @@
     <iframe src="" id="mainFrame"></iframe>
     <script>
       pathname = location.href.split('?')
-      pathname = pathname.length ? '/puyopuyo_practice/?' + pathname[1] : '/puyopuyo_practice'
+      pathname = typeof pathname != 'undefined' && pathname.length ? '/puyopuyo_practice/?' + pathname[1] : '/puyopuyo_practice'
       el = document.querySelector('#mainFrame')
       location.href = (Math.random()*13|0) + pathname
     </script>

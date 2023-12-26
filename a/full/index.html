@@ -22,7 +22,7 @@
     <script>
       if(location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')
-        pathname = pathname.length ? '/a/full/?' + pathname[1] : '/a/full'
+        pathname = typeof pathname != 'undefined' && pathname.length ? '/a/full/?' + pathname[1] : '/a/full'
         el = document.querySelector('#mainFrame')
         location.href = '../../' + (Math.random()*13|0) + pathname
       }

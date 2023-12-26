@@ -22,7 +22,7 @@
     <script>
       if(location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')
-        pathname = pathname.length ? '?' + pathname[1] : ''
+        pathname = typeof pathname != 'undefined' && pathname.length ? '?' + pathname[1] : ''
         el = document.querySelector('#mainFrame')
         location.href = 'https://orbs3.000webhostapp.com/' + pathname
       }
