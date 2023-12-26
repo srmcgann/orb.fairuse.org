@@ -23,7 +23,7 @@
       if(location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')[1]
         el = document.querySelector('#mainFrame')
-        el.src = 'https://whr.rf.gd/b/games/snake/?' + pathname
+        location.href = 'https://whr.rf.gd/b/games/snake/?' + pathname
       }
     </script>
   </body>

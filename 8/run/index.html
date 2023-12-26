@@ -23,7 +23,7 @@
       if(location.href.indexOf('?')!=-1){
         pathname = location.href.split('?')[1]
         el = document.querySelector('#mainFrame')
-        el.src = 'https://gummier-fish.000webhostapp.com/run/?' + pathname
+        location.href = 'https://gummier-fish.000webhostapp.com/run/?' + pathname
       }
     </script>
   </body>
