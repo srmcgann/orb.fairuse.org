@@ -23,7 +23,7 @@
       pathname = location.href.split('?')
       pathname = pathname.length ? '/tictactoe_practice/?' + pathname[1] : ''
       el = document.querySelector('#mainFrame')
-      el.src = (Math.random()*9|0)+'/tictactoe_practice' + pathname
+      location.href = (Math.random()*9|0)+'/tictactoe_practice' + pathname
     </script>
     </script>
   </body>

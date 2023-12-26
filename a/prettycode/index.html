@@ -24,7 +24,7 @@
         pathname = location.href.split('?')
         pathname = pathname.length ? '/a/prettycode/?' + pathname[1] : '/a/prettycode'
         el = document.querySelector('#mainFrame')
-        el.src = '../../' + (Math.random()*13|0) + pathname
+        location.href = '../../' + (Math.random()*13|0) + pathname
       }
     </script>
   </body>
