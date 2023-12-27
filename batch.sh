@@ -1,5 +1,5 @@
 #!/bin/bash
-./setDomainBatch.sh fishable-searches.000webhostapp.com id21284549_user id21284549_videodemos2
+./setDomainBatch.sh fishable-searches.000webhostapp.com id2128455+9_user id2128455+9_videodemos2
 mv *.zip ..
 ./setDomainBatch.sh orbs2.000webhostapp.com id21552617_user id21552617_orbs2
 mv *.zip ..

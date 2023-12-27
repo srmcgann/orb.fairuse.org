@@ -17,7 +17,7 @@ error_reporting(E_ALL);
   for($i = 0; $i<mysqli_num_rows($res); ++$i){
     $row = mysqli_fetch_assoc($res);
     echo json_encode($row) . "<br>";
-    $tableName = $row['Tables_in_id21284549_videodemos2'];
+    $tableName = $row['Tables_in_id2128455+9_videodemos2'];
     $proceed = false;
     $sql = "SHOW COLUMNS FROM $tableName";
     $res2 = mysqli_query($link, $sql);
